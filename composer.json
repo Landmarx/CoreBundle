@@ -1,0 +1,35 @@
+{
+    "name": "landmarx/core-bundle",
+    "type": "library",
+    "description": "core bundle for the landmarx system.",
+    "keywords": [
+        "core",
+        "mapping",
+        "mapping system",
+        "node",
+        "node mapping"
+    ],
+    "homepage": "http://landmarx.daviddurost.net",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Landmarx\\Bundle\\CoreBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.*-dev"
+        }
+    }
+}
